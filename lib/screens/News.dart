@@ -17,7 +17,7 @@ class BasketballNews extends StatelessWidget {
           _buildNewsCard(
             title: 'ทีมชาติไทยคว้าแชมป์การแข่งขัน FIBA Asia Cup 2025 รอบคัดเลือก',
             content: 'ทีมชาติไทยสร้างประวัติศาสตร์คว้าแชมป์รายการ FIBA Asia Cup 2025 รอบคัดเลือก หลังเอาชนะคู่แข่งในรอบชิงชนะเลิศด้วยสกอร์ 78-72 ทำให้ได้สิทธิ์เข้าร่วมการแข่งขันรอบสุดท้ายอย่างเป็นทางการ',
-            imagePath: 'assets/images/THwin.jpg',
+            imagePath: 'assets/images/THwiner.jpg',
             date: '18 มีนาคม 2025',
           ),
           _buildNewsCard(
