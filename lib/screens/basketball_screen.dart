@@ -5,6 +5,8 @@ import 'Setting_Basketballscore.dart';
 import 'db_helper.dart';
 
 class BasketballScreen extends StatefulWidget {
+  const BasketballScreen({super.key});
+
   @override
   _BasketballScreenState createState() => _BasketballScreenState();
 }

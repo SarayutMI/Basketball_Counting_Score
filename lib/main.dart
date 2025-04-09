@@ -7,6 +7,8 @@ void main() {
 }
 
 class SportsScoreKeeperApp extends StatelessWidget {
+  const SportsScoreKeeperApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,3 +18,5 @@ class SportsScoreKeeperApp extends StatelessWidget {
     );
   }
 }
+
+

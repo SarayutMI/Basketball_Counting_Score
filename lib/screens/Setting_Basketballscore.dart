@@ -7,6 +7,8 @@ class GameSettings {
 }
 
 class SettingBasketballScore extends StatefulWidget {
+  const SettingBasketballScore({super.key});
+
   @override
   _SettingBasketballScoreState createState() => _SettingBasketballScoreState();
 }

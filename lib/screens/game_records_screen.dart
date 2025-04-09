@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'db_helper.dart'; // import DatabaseHelper
 
 class GameRecordsScreen extends StatefulWidget {
+  const GameRecordsScreen({super.key});
+
   @override
   _GameRecordsScreenState createState() => _GameRecordsScreenState();
 }
@@ -280,8 +282,8 @@ class _GameRecordsScreenState extends State<GameRecordsScreen> {
             curve: Curves.easeInOut,
           );
         },
-        child: Icon(Icons.arrow_upward),
         backgroundColor: Colors.orange,
+        child: Icon(Icons.arrow_upward),
       ),
     );
   }

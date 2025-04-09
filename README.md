@@ -1,4 +1,4 @@
-# flutter_application_1
+# flutter Application Tearm EDU Project
 
 A new Flutter project to track and manage basketball game scores, with features for setting up game rules, viewing game statistics, and more.
 
@@ -21,7 +21,7 @@ For help getting started with Flutter development, view the [online documentatio
 
 | Field            | Type    | Description                            |
 |------------------|---------|----------------------------------------|
-| Id               | INTEGER | PRIMARY KEY AUTOINCREMENT             |
+| Id               | INTEGER | PRIMARY KEY AUTOINCREMENT              |
 | home_team        | TEXT    | NOT NULL                               |
 | guest_team       | TEXT    | NOT NULL                               |
 | home_score       | INTEGER | NOT NULL                               |
@@ -81,8 +81,40 @@ For help getting started with Flutter development, view the [online documentatio
 - **`Setting_Basketballscore.dart`**: Allows setting quarter and time quarter configurations
 - **`TeamPlayer.dart`**: Displays team player positions in basketball
 
----
+## Home Screen
+<div align="center">
+  <img src="ScreenPreview/HomeScreenDark.png" alt="Main Screen [Dark]" style="display: inline-block; width: 20%;">
+  <img src="ScreenPreview/HomeScreenLight.png" alt="Main Screen [Light]" style="display: inline-block; width: 20%;">
+  <br>
+  Home Screen With Dark/Light Theme
+</div>
 
-## License
+## Basketball Counting Score Screen
+<div align="center">
+  <img src="ScreenPreview/CountingScore.png" alt="Main Screen [Dark]" style="display: inline-block; width: 20%;">
+  <br>
+  Basketball Counting Score Screen. This page can Count Score Home Team and Guest Team, Timer, Quater Game
+</div>
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Game Setting Screencreen
+<div align="center">
+  <img src="ScreenPreview/GameSettingScreen.png" alt="Main Screen [Dark]" style="display: inline-block; width: 20%;">
+  <br>
+  Setting Time and Number of Quater Game
+</div>
+
+## Game Record Screencreen
+<div align="center">
+  <img src="ScreenPreview/GameRecordScreen.png" alt="Main Screen [Dark]" style="display: inline-block; width: 20%;">
+  <br>
+    This Screen Can Show Old Score, Team Winner, Time, Quater ,This information preference From SQLite on the device.
+</div>
+
+## Other Screen
+<div align="center">
+  <img src="ScreenPreview/BasketballNewsScreen.png" alt="Main Screen [Dark]" style="display: inline-block; width: 20%;">
+  <img src="ScreenPreview/RoleScreen.png" alt="Main Screen [Dark]" style="display: inline-block; width: 20%;">
+  <img src="ScreenPreview/PlayerPostionScreen.png" alt="Main Screen [Dark]" style="display: inline-block; width: 20%;">
+  <br>
+</div> 
